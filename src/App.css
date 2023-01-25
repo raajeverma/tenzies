@@ -1,0 +1,134 @@
+main{
+  margin: 5% auto;
+  height: 540px;
+  width: 700px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 30px;
+  box-shadow: 0px 0px 14px #bd80e1;
+}
+
+.instructions{
+  font-weight: 400;
+  margin: 1rem 5rem 1.5rem;
+  background: #FFFFFF;
+  padding: 1rem 2rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter,sans-serif;
+  text-align: center;
+  line-height: 1.75
+}
+.instructions span{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  width: 140px;
+  border-radius: 0 34px;
+  background-color: #61dbfb;
+  color: white;
+}
+
+.container{
+  display: grid;
+  grid-template: auto auto / repeat(5,1fr);
+  gap: 20px;
+  margin-top: inherit;
+}
+
+
+.die-face{
+  transition: all .4s linear;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  color: #0b2434;
+}
+.die-num{
+  font-size: 2rem;
+}
+.die-image{
+  width: 50%;
+}
+
+
+.roll-btn{
+  background-color: #ffd15b;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 178px;
+  border-radius: 4px;
+  font-size: 1.5rem; 
+  letter-spacing: 4px;
+  font-family: 'Karla', sans-serif;
+  margin-top: 57px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.roll-btn:active{
+  background-color: #eba613
+}
+.title{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+.dice-logo{
+  width: 4.4rem;
+  margin: 1rem 1rem 0 1rem;
+}
+.stats{
+  margin-right: 30px;
+  border: 2px solid violet;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 112px;
+  height: 75px;
+  padding-left: 10px;
+  justify-content: center;
+  position: absolute;
+  margin-top: inherit;
+  box-shadow: 1px 1px 8px purple;
+}
+
+.profile-area{
+  position: absolute;
+  width: 31px;
+  left: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  background: linear-gradient(transparent, #ffffff00) padding-box, linear-gradient(to right, #aa00d7, #6432cc) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+.profile-area img{
+  width: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.icon{
+  color: white;
+  font-size: x-large;
+}
+.icon-code{
+  font-size: larger;
+}
